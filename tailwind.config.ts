@@ -17,9 +17,6 @@ export default {
 				'2xl': '1400px'
 			}
 		},
-		fontFamily: {
-			sans: ['Montserrat', 'system-ui', 'sans-serif'],
-		},
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
@@ -64,14 +61,6 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				},
-				red: {
-					DEFAULT: '#EF4444',
-					500: '#EF4444'
-				},
-				blue: {
-					DEFAULT: '#2563EB',
-					500: '#2563EB'
 				}
 			},
 			borderRadius: {
@@ -99,10 +88,7 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fade-in': 'fadeIn 0.5s ease-out',
-				'slide-up': 'slideUp 0.6s ease-out',
-				'bounce-in': 'bounceIn 0.8s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out'
 			}
 		}
 	},
